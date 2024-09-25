@@ -1,5 +1,7 @@
 #pragma once
 
+#include "DLLExport.h"
+
 #define DUMMY_EXPORT(FUNCTION_NAME,RETURN_TYPE,...)\
 typedef RETURN_TYPE(*FUNCTION_NAME##_Type)(__VA_ARGS__);\
 FUNCTION_NAME##_Type Real##FUNCTION_NAME = NULL;\
