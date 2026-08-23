@@ -16,5 +16,6 @@
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)DLLDummy.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)DLLExport.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shell.h" />
   </ItemGroup>
 </Project>
